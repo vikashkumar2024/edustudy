@@ -14,8 +14,8 @@ import cors from 'cors'
 const app = express()
 
 app.use(cors({
-    origin:ENV.CLIENT_URL,
-    credentials:true
+    origin: "https://edustudy-1.onrender.com",
+    credentials: true
 }))
 app.use(cookieParser())
 app.use(express.json())
